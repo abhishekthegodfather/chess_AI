@@ -5,7 +5,7 @@ The Download link for the chess_data is avaliable in kaggle and the link is here
 [1]: kaggle kernels output abhishekcody/own-chess-ai -p /path/to/dest
 
 # Chess AI Idea History
-# Shannon’s Approach For Computational chess![image](https://user-images.githubusercontent.com/97011879/171464105-22498692-8a45-4248-b7e1-31d9c9d02bf8.png)
+# Shannon’s Approach For Computational chess
 
 - In1949 Shannon published a ground breaking paper on computer chess entitled Programming a Computer for Playing Chess
 - He suggested and categorized two types of search :
@@ -15,7 +15,7 @@ The Download link for the chess_data is avaliable in kaggle and the link is here
 - Type B was most popular until the 1970's, when Type A programs had enough processing power and more efficient brute force algorithms to become stronger. Today most programs are closer to Type A, but have some characteristics of a Type B.
 
 
-# Approach of Our Chess AI model![image](https://user-images.githubusercontent.com/97011879/171464612-07834cde-5b40-40f6-a354-a5a1b149d27c.png)
+# Approach of Our Chess AI model
 - Selection of language and importing necessary library
   - Python3 is selected.
   - For Deep learning TensorFlow, keras was imported for making CNN model and python-chess library is imported for defining the chess board and chess piece.
@@ -38,12 +38,13 @@ The Download link for the chess_data is avaliable in kaggle and the link is here
   - Game is played between the generated model and human (ME) where the input is given in the form of chess coordinate.
 
 
-# Minimax Algorithm![image](https://user-images.githubusercontent.com/97011879/171465700-57f8d201-bb42-44ac-89f5-93edefefd0ee.png)
+# Minimax Algorithm
 - Search tree backtracking algorithm, minimize possible loss (expect opponent to make best possible move)
 - Because chess is a zero-sum game, the minimax algorithm takes use of that. Minimizing your opponent's chances of winning is the same as increasing your own chances of winning.
 - Each turn can be seen as a player making a move to maximize the evaluation function while the other tries to minimize it. Which is incredibly slow and makes it impractical.
 - Minimax Algorithm moves in depth-first fashion down the tree until it reaches a terminal node (i.e. someone wins the game) or a pre-determined depth limit
 
+![image](https://user-images.githubusercontent.com/97011879/171465930-bf107171-ac9f-4842-8cc0-4ca51234bda4.png)
 
 # Alpha and Beta algorithm	![image](https://user-images.githubusercontent.com/97011879/171465476-acad767e-f3bb-4fe8-b5ce-c46cfb778623.png)
 - The Alpha-Beta algorithm (Alpha-Beta Pruning, Alpha-Beta Heuristic) is a significant enhancement to the minimax search algorithm that eliminates the need to search large portions of the game tree applying a branch-and-bound technique.
