@@ -1,5 +1,5 @@
-# chess_AI
-Development of CHESS AI using Tensorflow and MiniMax Tree 
+# Chess_AI
+#Development of CHESS AI using Tensorflow and MiniMax Tree 
 
 The Download link for the chess_data is avaliable in kaggle and the link is here 
 [1]: kaggle kernels output abhishekcody/own-chess-ai -p /path/to/dest
