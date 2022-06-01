@@ -52,3 +52,9 @@ The Download link for the chess_data is avaliable in kaggle and the link is here
 
 ![image](https://user-images.githubusercontent.com/97011879/171465554-f4971a91-ac6b-4b85-bb4a-0a3fd9ed8353.png)
 
+This Project is presented in Depearmental fest of Indian Institute of Technology, Roorkee
+- Cognizance 2022 which was held for the first time in the hybrid mode witnessed a massive participation from the students from across 3000+ collegee by IIT Roorkee
+- presented by me from Indian Institute of Technology, Kharagpur and won the 2nd prize 
+![ss_iit rootkee](https://user-images.githubusercontent.com/97011879/171469789-1514df0d-a437-41b3-a61f-75b5ff55aca8.png)
+
+Any Improvement if need please fork this repository and contact as in email abhishekbiswas772@gmail.com
