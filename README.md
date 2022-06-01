@@ -46,7 +46,7 @@ The Download link for the chess_data is avaliable in kaggle and the link is here
 
 ![image](https://user-images.githubusercontent.com/97011879/171465930-bf107171-ac9f-4842-8cc0-4ca51234bda4.png)
 
-# Alpha and Beta algorithm	![image](https://user-images.githubusercontent.com/97011879/171465476-acad767e-f3bb-4fe8-b5ce-c46cfb778623.png)
+# Alpha and Beta algorithm	
 - The Alpha-Beta algorithm (Alpha-Beta Pruning, Alpha-Beta Heuristic) is a significant enhancement to the minimax search algorithm that eliminates the need to search large portions of the game tree applying a branch-and-bound technique.
 - Alpha-beta pruning speeds up minimax by skipping the “irrelevant” nodes of a search tree. This can be accomplished by adding extra data to each node, an “alpha” and a “beta” value, which represent the worst outcome for each player from that node
 
